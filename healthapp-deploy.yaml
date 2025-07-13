@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+oyapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: healthapp-deployment
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: healthapp-container
-          image: sravani629/healthapp:14
+          image: sravani629/healthapp-deploy:14
           ports:
             - containerPort: 8081
 ---
