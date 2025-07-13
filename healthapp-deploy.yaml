@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: healthapp-container
-          image: sravani629/healthapp-deployment:14
+          image: sravani629/healthapp-deployment:2
           ports:
             - containerPort: 8081
 ---
